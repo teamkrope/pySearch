@@ -13,8 +13,8 @@ setup(
     author_email='huzaifaasim017@outlook.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=['pySearch'],
-    py_modules=['pySearch'],
+    packages=['python-pySearch'],
+    py_modules=['python-pySearch'],
     install_requires=[],
     classifiers=[
         'Intended Audience :: Developers',
