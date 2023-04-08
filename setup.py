@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='pySearch',
+    name='python-pySearch',
     version='0.1.0',
     description='A Python package to search on the internet from your code.',
     maintainer='HunerOn',
@@ -14,6 +14,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=['pySearch'],
+    py_modules=['pySearch'],
     install_requires=[],
     classifiers=[
         'Intended Audience :: Developers',
@@ -24,7 +25,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
-        'License :: OSI Approved :: Apache License 2.0',
+        'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3',
